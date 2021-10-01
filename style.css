@@ -35,6 +35,7 @@ hr {
     padding: .5rem 1rem;
 }
 
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: .5rem;
@@ -51,6 +52,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 .list-item-inline {
@@ -95,6 +97,11 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+@media only screen and (max-width: 400px) {
+    .hero .hero-image {
+        max-width: 290px;
+    }
 }
 
 .hero .hero-heading {
